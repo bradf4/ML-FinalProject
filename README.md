@@ -1,7 +1,7 @@
 <a href="https://dataturks.com/projects/abhishek.narayanan/Dataset%20for%20Detection%20of%20Cyber-Trolls?fbclid=IwAR1z4Mv4bEnX-vwZs9GWvJjoTLq1p0JDgLu5hwYU6xsPleWW0mx6yC6PEg0">This package includes the code we made to use prelabeled data which has 20,000 tweets classified either for being aggressive or not.</a>
 
 Before we needed data to test the machine learning algorithm, we first used code from the University of Wisconsin - Madison, with data they gave to train the SVM. 
-  - <a href="http://research.cs.wisc.edu/bullying/data.html ">where the bullyingtraceV2.zip has the code necessary to take in lines of text and predict if the text is bullying or not. They include a program enrichment.java that would remove examples that don't contain certain keywords, which we
+  - <a href="http://research.cs.wisc.edu/bullying/data.html ">BullyingtraceV2.zip has the code necessary to take in lines of text and predict if the text is bullying or not. They include a program enrichment.java that would remove examples that don't contain certain keywords, which we
 decided to not use in order to compare the prediction to the already labeled data. We also used the bullyingV3.zip for the training data, in the data.csv.</a>
 
 Using this we tried to see how correct the machine learning algorithm was to pre labeled data, however we acknowledge that the test data could
