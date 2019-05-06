@@ -10,7 +10,7 @@ Using this we tried to see how correct the machine learning algorithm was to pre
 have been "poorly" labeled, and it's rather hard to obtain well labeled data without bias.
 
 --------------------------------------------------------------------------------------
-Step 1: Setting up the Model
+<b>Step 1: Setting up the Model</b>
 
 The University of Wisconsin - Madison provided an open source pre-trained linear SVM model in which we used to detect whether a tweet or message contains cyber-bullying. To set this up for our test, we just made the java program using the provided makefile. After setting up, we were able to test our own data using a text file and the corresponding jar file. This model was trained using ~7000 tweets that the University labeled themselves.
 
